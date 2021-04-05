@@ -13,7 +13,7 @@
                "name": "apprepo-container",
 
 
-               "image": "202714190885.dkr.ecr.ap-south-1.amazonaws.com/apprepo:20",
+               "image": "454957204982.dkr.ecr.us-east-2.amazonaws.com/apprepo:18",
 
 
                "cpu": 0,
@@ -64,7 +64,7 @@
                        "awslogs-group": "/ecs/apprepo-taskdef",
 
 
-                       "awslogs-region": "ap-south-1",
+                       "awslogs-region": "us-east-2",
 
 
                        "awslogs-stream-prefix": "ecs"
@@ -85,7 +85,7 @@
        "family": "apprepo-taskdef",
 
 
-       "executionRoleArn": "arn:aws:iam::202714190885:role/ecsTaskExecutionRole",
+       "executionRoleArn": "arn:aws:iam::454957204982:role/ecsTaskExecutionRole",
 
 
        "networkMode": "awsvpc",
